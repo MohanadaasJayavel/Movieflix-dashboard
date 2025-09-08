@@ -74,7 +74,7 @@ MONGO_URI=mongodb://127.0.0.1:27017/movieflix
 JWT_SECRET=super_secret_change_me
 OMDB_API_KEY=YOUR_OMDB_API_KEY
 CLIENT_URL=http://localhost:5173
-    `
+`
 
 4. Start the backend server:
    ```bash

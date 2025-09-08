@@ -62,17 +62,24 @@
    cd server
    ```
 2. Install dependencies:
+
+   ```bash
    npm install
+   ```
 
 3. Create a .env file in the server directory with the following:
-   PORT=5000
-   MONGO_URI=mongodb://127.0.0.1:27017/movieflix
-   JWT_SECRET=super_secret_change_me
-   OMDB_API_KEY=YOUR_OMDB_API_KEY
-   CLIENT_URL=http://localhost:5173
+   `bash
+PORT=5000
+MONGO_URI=mongodb://127.0.0.1:27017/movieflix
+JWT_SECRET=super_secret_change_me
+OMDB_API_KEY=YOUR_OMDB_API_KEY
+CLIENT_URL=http://localhost:5173
+    `
 
 4. Start the backend server:
+   ```bash
    npm run dev
+   ```
 
 ### Frontend Setup
 
@@ -81,10 +88,16 @@
    cd client
    ```
 2. Install dependencies:
+   ```bash
    npm install
+   ```
 
 3.Create a .env file in the client directory with the API base URL:
-VITE_API_BASE=http://localhost:5000/api
+`bash
+    VITE_API_BASE=http://localhost:5000/api
+    `
 
 4. Start the frontend server:
-   npm run dev
+   ```bash
+    npm run dev
+   ```
